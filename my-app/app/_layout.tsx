@@ -40,8 +40,8 @@ export default function RootLayout() {
       <Stack.Screen name="index" options={{headerShown:false,title:'Home'}} />
 
       <Stack.Screen
-       name="menu" 
-      options={{headerShown:true,title:'Menu',headerTitle:'Coffe Shop Menu'}} />
+       name="addCentre" 
+      options={{headerShown:false,title:'Menu',headerTitle:'Manage'}} />
       
       <Stack.Screen name="contact" 
       options={{headerShown:true,title:'Contact Us',headerTitle:"Contact Us"}} />
